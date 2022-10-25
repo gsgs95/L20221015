@@ -909,3 +909,72 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.10.25-01.40.08:865][  1]LogAssetRegistry: Asset discovery search completed in 4.8085 seconds
 [2022.10.25-01.40.08:874][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
 [2022.10.25-01.42.05:926][899]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.10.25-01.43.51:856][824]LogSlate: Took 0.011225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.10.25-01.47.12:209][402]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.10.25-01.47.12:240][402]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.10.25-01.47.16:226][402]LogSlate: Window '부모 클래스 선택' being destroyed
+[2022.10.25-01.48.34:807][ 64]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.10.25-01.48.47:085][781]Running C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Work/UnrealMeta2/L20221025/L20221025.uproject" -game -rocket -progress
+[2022.10.25-01.48.47:390][781]Discovering modules, targets and source code for project...
+[2022.10.25-01.48.49:805][781]Binding IntelliSense data...
+[2022.10.25-01.48.56:962][781]Binding IntelliSense data... 100%
+[2022.10.25-01.48.56:962][781]Writing project files...
+[2022.10.25-01.48.59:683][781]Writing project files... 100%
+[2022.10.25-01.48.59:886][781]LogHotReload: Recompiling module L20221025...
+[2022.10.25-01.48.59:888][781]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.10.25-01.48.59:898][781]Candidate modules for hot reload:
+[2022.10.25-01.48.59:898][781]  L20221025
+[2022.10.25-01.48.59:898][781]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=L20221025,5315 L20221025Editor Win64 Development -Project="C:/Work/UnrealMeta2/L20221025/L20221025.uproject" "C:/Work/UnrealMeta2/L20221025/L20221025.uproject"  -IgnoreJunk]
+[2022.10.25-01.49.45:086][781]Using 'git status' to determine working set for adaptive non-unity build (C:\Work\UnrealMeta2\L20221025).
+Creating makefile for L20221025Editor (no existing makefile)
+Parsing headers for L20221025Editor
+  Running UnrealHeaderTool "C:\Work\UnrealMeta2\L20221025\L20221025.uproject" "C:\Work\UnrealMeta2\L20221025\Intermediate\Build\Win64\L20221025Editor\Development\L20221025Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\rbtn9\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+LogInit: Display: Loading text-based GConfig....
+Reflection code generated for L20221025Editor in 8.0264791 seconds
+Building L20221025Editor...
+Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 9 actions with 8 processes...
+  [1/9] Default.rc2
+  [2/9] SharedPCH.Engine.ShadowErrors.cpp
+  [3/9] L20221025.cpp
+  [4/9] L20221025.init.gen.cpp
+  [5/9] MyGameModeBase.cpp
+  [6/9] MyGameModeBase.gen.cpp
+  [7/9] UE4Editor-L20221025-5315.lib
+     C:\Work\UnrealMeta2\L20221025\Intermediate\Build\Win64\UE4Editor\Development\L20221025\UE4Editor-L20221025-5315.lib ???̺귯?? ?? C:\Work\UnrealMeta2\L20221025\Intermediate\Build\Win64\UE4Editor\Development\L20221025\UE4Editor-L20221025-5315.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+  [8/9] UE4Editor-L20221025-5315.dll
+     C:\Work\UnrealMeta2\L20221025\Intermediate\Build\Win64\UE4Editor\Development\L20221025\UE4Editor-L20221025-5315.suppressed.lib ???̺귯?? ?? C:\Work\UnrealMeta2\L20221025\Intermediate\Build\Win64\UE4Editor\Development\L20221025\UE4Editor-L20221025-5315.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+  [9/9] L20221025Editor.target
+Total time in Parallel executor: 25.00 seconds
+Total execution time: 45.11 seconds
+
+[2022.10.25-01.49.45:093][781]CompilerResultsLog: New page: 컴파일 - 2022. 10. 25. 오후 7:49:45
+[2022.10.25-01.49.45:093][781]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Work\UnrealMeta2\L20221025).
+[2022.10.25-01.49.45:093][781]CompilerResultsLog: Creating makefile for L20221025Editor (no existing makefile)
+[2022.10.25-01.49.45:093][781]CompilerResultsLog: Parsing headers for L20221025Editor
+[2022.10.25-01.49.45:093][781]CompilerResultsLog:   Running UnrealHeaderTool "C:\Work\UnrealMeta2\L20221025\L20221025.uproject" "C:\Work\UnrealMeta2\L20221025\Intermediate\Build\Win64\L20221025Editor\Development\L20221025Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\rbtn9\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.10.25-01.49.45:093][781]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.10.25-01.49.45:093][781]CompilerResultsLog: Reflection code generated for L20221025Editor in 8.0264791 seconds
+[2022.10.25-01.49.45:093][781]CompilerResultsLog: Building L20221025Editor...
+[2022.10.25-01.49.45:093][781]CompilerResultsLog: Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.10.25-01.49.45:093][781]CompilerResultsLog: Building 9 actions with 8 processes...
+[2022.10.25-01.49.45:093][781]CompilerResultsLog:   [1/9] Default.rc2
+[2022.10.25-01.49.45:093][781]CompilerResultsLog:   [2/9] SharedPCH.Engine.ShadowErrors.cpp
+[2022.10.25-01.49.45:093][781]CompilerResultsLog:   [3/9] L20221025.cpp
+[2022.10.25-01.49.45:094][781]CompilerResultsLog:   [4/9] L20221025.init.gen.cpp
+[2022.10.25-01.49.45:094][781]CompilerResultsLog:   [5/9] MyGameModeBase.cpp
+[2022.10.25-01.49.45:094][781]CompilerResultsLog:   [6/9] MyGameModeBase.gen.cpp
+[2022.10.25-01.49.45:094][781]CompilerResultsLog:   [7/9] UE4Editor-L20221025-5315.lib
+[2022.10.25-01.49.45:094][781]CompilerResultsLog:      C:\Work\UnrealMeta2\L20221025\Intermediate\Build\Win64\UE4Editor\Development\L20221025\UE4Editor-L20221025-5315.lib ???̺귯?? ?? C:\Work\UnrealMeta2\L20221025\Intermediate\Build\Win64\UE4Editor\Development\L20221025\UE4Editor-L20221025-5315.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.10.25-01.49.45:094][781]CompilerResultsLog:   [8/9] UE4Editor-L20221025-5315.dll
+[2022.10.25-01.49.45:094][781]CompilerResultsLog:      C:\Work\UnrealMeta2\L20221025\Intermediate\Build\Win64\UE4Editor\Development\L20221025\UE4Editor-L20221025-5315.suppressed.lib ???̺귯?? ?? C:\Work\UnrealMeta2\L20221025\Intermediate\Build\Win64\UE4Editor\Development\L20221025\UE4Editor-L20221025-5315.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.10.25-01.49.45:094][781]CompilerResultsLog:   [9/9] L20221025Editor.target
+[2022.10.25-01.49.45:094][781]CompilerResultsLog: Total time in Parallel executor: 25.00 seconds
+[2022.10.25-01.49.45:094][781]CompilerResultsLog: Total execution time: 45.11 seconds
+[2022.10.25-01.49.45:094][781]LogMainFrame: MainFrame: Module compiling took 45.206 seconds
+[2022.10.25-01.49.45:102][781]Reloading module L20221025 after successful compile.
+[2022.10.25-01.49.45:133][781]LogClass: Could not find existing package /Script/L20221025 for HotReload of class MyGameModeBase, assuming a new package.
+[2022.10.25-01.49.45:138][781]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'L20221025' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2022.10.25-01.49.45:149][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.10.25-01.49.45:163][781]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0091 seconds. Added 3836 classes and 940 folders.
+[2022.10.25-01.49.45:349][781]LogSlate: Window 'C++ 클래스 추가' being destroyed
