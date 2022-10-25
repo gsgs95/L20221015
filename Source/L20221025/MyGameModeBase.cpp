@@ -3,3 +3,8 @@
 
 #include "MyGameModeBase.h"
 
+AMyGameModeBase::AMyGameModeBase()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Hello World!"));
+}
+
